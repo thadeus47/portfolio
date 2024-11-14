@@ -1,8 +1,11 @@
-import React from 'react'
+import Navbar from "./sections/Navbar"
+
 
 const App = () => {
   return (
-    <div>Thadeus Portfolio</div>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
   )
 }
 
